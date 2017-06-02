@@ -103,7 +103,7 @@ public class RoboResume {
 		System.out.println("~~~~~~~~Skills~~~~~~~~");
 		for (int i = 0; i < skills.length; i++) {
 			if (skills[i] != null)
-				System.out.print(skills[i] + ", ");
+				System.out.println(skills[i]);
 		}
 
 		return " ";
